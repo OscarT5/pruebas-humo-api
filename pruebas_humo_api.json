@@ -1,0 +1,41 @@
+{
+  "info": {
+    "_postman_id": "280dbd2e-bdec-4f63-8316-25f4ddc25a3e",
+    "name": "Pruebas de Humo - API Inicio",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52884977",
+    "_collection_link": "https://go.postman.co/collection/52884977-280dbd2e-bdec-4f63-8316-25f4ddc25a3e?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/ckl2phsabijs71623vk0?modelsPage=1",
+          "protocol": "https",
+          "host": [
+            "k51qryqov3",
+            "execute-api",
+            "ap-southeast-2",
+            "amazonaws",
+            "com"
+          ],
+          "path": [
+            "prod",
+            "makes",
+            "ckl2phsabijs71623vk0"
+          ],
+          "query": [
+            {
+              "key": "modelsPage",
+              "value": "1"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
